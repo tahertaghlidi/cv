@@ -1,0 +1,159 @@
+body{
+    background-color: #f6f5f1;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #898b8a;
+    border-width: 7px;
+    width: 10%;
+    margin: 100px auto;
+
+}
+h1{
+    color: #16a596;
+}
+#center-image{
+    width: 40%;
+    height: 40%;
+}
+#my-name{
+    font-weight: 100;
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    right: 110px;
+    top: 120px;
+    font-size: 60px;
+}
+#my-job{
+    right: 116px;
+    font-weight: 100;
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top: 220px;
+    font-size: 32px;
+}
+.top-container{
+    background-color: #fae0df;
+}
+.middle-container{
+    text-align: center;
+    margin-top: 100px 5px;
+}
+.my-image img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid black;
+    transition: all 0.4s linear;
+    
+}
+.my-image img:hover{
+    border: 2px solid #fae0df;
+    transform: scale(1.2,1.2);
+    
+}
+.intro-content h2{
+    color: #16a596;
+    font-family: 'Poiret One', cursive;
+}
+.intro-content p {
+    color: #898b8a;
+}
+.what-can-do{
+    text-align: center;
+    margin: 0px auto;
+    display: inline-block;
+    width: 100%;
+}
+.what-can-do-contex{
+    margin: 0 180px;
+}
+.what-can-do-contex h1{
+    font-family: 'Poiret One', cursive;
+}
+.what-can-do-contex p{
+    color: #898b8a;
+}
+.my-anim{
+    width: 33%;
+    float: left;
+    margin-left: 150px;
+    
+}
+
+/* bottom container begin */
+.bottom-container{
+    margin-top: 100px;
+}
+.i-can-help{
+    display: inline-block;
+    width: 100%;
+}
+.i-can-help-contex{
+    margin-left: 165px;
+}
+.i-can-help-contex h1{
+    font-family: 'Poiret One', cursive;
+}
+.i-can-help-contex p{
+    color: #898b8a;
+}
+.help-anim{
+    width: 40%;
+    float: right;
+    margin-right: 120px;
+}
+
+.footer{
+    width: 100%;
+    background-color:  #fae0df;
+    display: inline-block;
+    margin-top: 270px;
+    height: 300px;
+}
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+.flood{
+    animation: float 3s infinite;
+    text-align: center;
+    position: relative;
+    left: 680px;
+    top: -54px;
+}
+#get-in{
+    position: relative;
+    text-align: center;
+    right: 189px;
+    top: -209px;
+    font-size: 5rem;
+    font-family: 'Poiret One', cursive;
+}
+#touch{
+    position: relative;
+    text-align: center;
+    padding-left: 400px;
+    top: -354px;
+    font-size: 5rem;
+    font-family: 'Poiret One', cursive;
+}
+.call-me{
+    text-align: center;
+    margin: -350px 0px;
+    font-family: 'Poiret One', cursive;
+}
+#mail{
+    text-align: center;
+}
